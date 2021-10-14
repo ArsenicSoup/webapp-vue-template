@@ -1,0 +1,25 @@
+$theme-colors: (
+  "primary": #6c73a0,
+  "secondary": #878787,
+  "success": #63a971,
+  "warning": #e09939,
+  "alert": #f44336,
+  "accent": #42426f,
+  "info": #281e31,
+  "danger": #f44336,
+  "light": #f8f9fa,
+  "dark": #343a40
+);
+
+
+$light-gray: #e3e3e3;
+$medium-gray: #878787;
+$dark-gray: #2c2c2c;
+
+$black: #222222;
+$white: #fbfbfb;
+
+$body-background: #f8fbff;
+
+$brand_primary: map-get($theme-colors, primary);
+$brand_secondary: map-get($theme-colors, secondary);
