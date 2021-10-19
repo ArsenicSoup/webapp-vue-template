@@ -1,3 +1,5 @@
+
+/*
 $theme-colors: (
   "primary": #6c73a0,
   "secondary": #878787,
@@ -10,7 +12,7 @@ $theme-colors: (
   "light": #f8f9fa,
   "dark": #343a40
 );
-
+*/
 
 $light-gray: #e3e3e3;
 $medium-gray: #878787;
@@ -21,5 +23,5 @@ $white: #fbfbfb;
 
 $body-background: #f8fbff;
 
-$brand_primary: map-get($theme-colors, primary);
-$brand_secondary: map-get($theme-colors, secondary);
+//$brand_primary: map-get($theme-colors, primary);
+//$brand_secondary: map-get($theme-colors, secondary);

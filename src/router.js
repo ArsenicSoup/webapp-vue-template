@@ -7,9 +7,10 @@ Vue.use(Router)
 
 const router = new Router({
     mode: 'history',
+    linkActiveClass: 'active',
     base: process.env.BASE_URL,
     routes: [
-        { path: '/', name: 'home', component: Home, meta: { auth: false }},
+        { path: '/home', name: 'home', component: Home, meta: { auth: false }},
         { path: '/about', name: 'about', component: About, meta: { auth: false }},
     ]
 });

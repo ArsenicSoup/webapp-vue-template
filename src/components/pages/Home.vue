@@ -1,12 +1,12 @@
 <template>
-    <us-container fluid>
+    <b-container fluid>
         <h2 class="capitalize">{{path}}</h2>
 
-        <us-alert variant="info" title="Info">
-            The <b>{{path}}</b> page is coming soon.
-        </us-alert>
+        <b-alert variant="info" show>
+            <i class='fas fa-info-circle'></i> The <b>{{path}}</b> page is coming soon.
+        </b-alert>
 
-    </us-container>
+    </b-container>
 </template>
 
 <script>

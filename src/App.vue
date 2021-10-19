@@ -2,14 +2,14 @@
 
 <template>
     <div id="app">  
-        <us-row class="mx-0">
-            <us-col md="2" lg="3">
-                <side-nav-bar class="mt-4 ml-4"/>
-            </us-col>
-            <us-col class="mx-0 px-0">
+        <b-row class="mx-0">
+            <b-col md="2" lg="3">
+                <side-nav-bar/>
+            </b-col>
+            <b-col class="mx-0 px-0">
                 <router-view class='page-content'></router-view> 
-            </us-col>
-        </us-row>
+            </b-col>
+        </b-row>
     </div>
 </template>
 
@@ -31,10 +31,4 @@ export default {
     }
 };
 </script>
-<style lang="scss">
-    #app {
-        background-color: rgba(198, 229, 240, 0.1);
-    }
-</style>
-
 

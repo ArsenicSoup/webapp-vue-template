@@ -4,10 +4,12 @@
 
         <section>
             <!--<h4>A Sidebar Section</h4>-->
-            <us-side-nav>
-                <us-side-nav-item :to="{name:'home'}"><i class="fas fa-fw fa-home"></i> Home</us-side-nav-item>
-                <us-side-nav-item :to="{name:'about'}"><i class="fas fa-fw fa-info-circle"></i> About</us-side-nav-item>
-            </us-side-nav>   
+
+            <b-nav vertical>
+                <b-nav-item :to="{name:'home'}"><i class="fas fa-fw fa-home"></i> Home</b-nav-item>
+                <b-nav-item :to="{name:'about'}"><i class="fas fa-fw fa-info-circle"></i> About</b-nav-item>
+            </b-nav>
+
         </section>   
     </div>
     

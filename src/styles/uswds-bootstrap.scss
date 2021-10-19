@@ -1,0 +1,32 @@
+
+// Side nav
+.nav {
+
+    &.flex-column {
+        a.active {
+            color: #222;
+            font-weight: 700;
+            background-color: #eee;
+            border-left: 3px solid #004c97;    
+        }
+    }
+        
+}
+
+.alert {
+    line-height: 1.5;
+    padding: 1.25rem 1.25rem 1rem 1.75rem !important;  
+}
+
+.alert-info::before {
+    background-color: #207ea0;
+}
+
+.alert::before {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 0.5rem;
+}
